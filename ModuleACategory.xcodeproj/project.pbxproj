@@ -301,13 +301,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ModuleACategory/Pods-ModuleACategory-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Mediator/Mediator.framework",
+				"${BUILT_PRODUCTS_DIR}/ACMediator/ACMediator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ACMediator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
