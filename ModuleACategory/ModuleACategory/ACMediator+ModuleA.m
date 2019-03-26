@@ -15,7 +15,7 @@ static NSString const *kParamsCallback = @"kParamsCallback";
 - (UIViewController *)moduleA_firstViewControllerWithCallback:(void (^)(NSString *))callback {
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     params[kParamsCallback] = callback;
-    return [self performTarget:@"ModuleA" action:@"" params:params shouldCacheTarget:NO];
+    return [self performTarget:@"ModuleA" action:@"Category_ViewController" params:params shouldCacheTarget:NO];
 }
 
 @end
