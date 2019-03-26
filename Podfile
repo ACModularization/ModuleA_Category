@@ -7,5 +7,5 @@ source 'https://github.com/yymodularization/ACRepo.git'
 use_frameworks!
 
 target 'ModuleACategory' do
-    pod 'CTMediator' 
+    pod 'ACMediator' 
 end
