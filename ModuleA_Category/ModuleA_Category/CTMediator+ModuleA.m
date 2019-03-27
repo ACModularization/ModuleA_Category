@@ -8,13 +8,11 @@
 
 #import "CTMediator+ModuleA.h"
 
-static NSString const *kParamsCallback = @"kParamsCallback";
-
 @implementation CTMediator (ModuleA)
 
 - (UIViewController *)moduleA_firstViewControllerWithCallback:(void (^)(NSString *))callback {
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
-    params[kParamsCallback] = callback;
+    params[@"callback"] = callback;
     return [self performTarget:@"ModuleA" action:@"Category_ViewController" params:params shouldCacheTarget:NO];
 }
 
